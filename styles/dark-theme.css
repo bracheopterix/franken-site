@@ -1,0 +1,6 @@
+.page {
+    /*Это стиль задника и всей страницы*/
+    background-color: rgb(17, 16, 15);
+    font-family: 'Roboto slab', sans-serif;
+    margin: 0;
+    padding: 0;}

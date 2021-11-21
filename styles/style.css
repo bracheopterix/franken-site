@@ -1,0 +1,242 @@
+.page {
+    /*Это стиль задника и всей страницы*/
+    background-color: rgb(228, 219, 204);
+    font-family: 'Roboto slab', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.back-g {
+    /*Это стиль фона шапки*/
+    background-image: url(../files/bg.jpg);
+    height: 70px;
+}
+
+.block {
+    /*Это основная полоса контента*/
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    min-height: 500px;
+}
+
+.mini-block {
+    /*Это дополнительное поле контента*/
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.nav {
+    /*Это стиль меню шапки*/
+    background-color: rgb(199, 183, 159);
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    font-size: 100%;
+}
+
+.nav a {
+    /*Это ссылки в меню, они теперь не подчеркнуты*/
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.nav li {
+    /*Это стиль каждого имени в меню*/
+    background-color: rgba(41, 66, 26, 0.377);
+    display: inline;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.about {
+    /*Это свойства фото"обо мне" на главной стр*/
+    margin: 30px;
+}
+
+.about img {
+    /*Это свойства фото"обо мне" на главной стр*/
+    border-radius: 30px;
+}
+
+.about-text {
+    margin-left: 30%;
+}
+
+main article {
+    /*Это отступы для легкочтения у статей на странице*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ol {
+    background: rgba(228, 189, 186, 0.226);
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    color: rgb(41, 66, 26);
+    font-weight: 600;
+    font-family: 'Roboto slab', sans-serif;
+}
+
+ol a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(66, 26, 26);
+}
+
+ol li {
+    border: 0px;
+    border-bottom: white;
+    border-style: solid;
+    max-width: 95%;
+    padding-left: 10px;
+}
+
+.h1 {
+    /*Это полупрозрачная полоса под названием сайта*/
+    background-color: rgba(241, 241, 241, 0.774);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    /*Это гребаный h1 что рождает полосу сверху сайта*/
+    font-family: Lobster;
+    color: #561232;
+    font-size: 250%;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+h2 {
+    /*Это милый h2 что с полосочками слева*/
+    font-family: Lobster;
+    border: 0;
+    border-left: 5px;
+    border-color: rgb(53, 75, 13);
+    border-style: solid;
+    padding-left: 5px;
+    color: #561232;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+    color: #561232;
+    text-transform: capitalize;
+}
+
+footer {
+    /*Это подвал*/
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(199, 183, 159);
+    border: 0px;
+    border-top: 3px;
+    border-color: rgb(214, 152, 155);
+    border-style: solid;
+    font-family: Zen Maru Gothic;
+    font-weight: 700;
+    font-size: 120%;
+    margin: 0;
+}
+
+code {
+    /* Это строчный код */
+    background-color: rgba(216, 116, 112, 0.219);
+    border-color: rgb(216, 112, 112);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px;
+    height: 1.4em;
+    margin-bottom: 5px;
+}
+
+.box {
+    /* Это коробка с кодом */
+    background-color: rgba(216, 116, 112, 0.219);
+    border-color: rgb(216, 112, 112);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-left: 20px;
+    margin: 5px;
+}
+
+.box code {
+    /* Это строчный код теряет свою обводку, потому что он уже в коробке */
+    background-color: initial;
+    border-color: none;
+    border-style: none;
+    border-width: none;
+    padding: none;
+    height: 1.4em;
+}
+
+
+
+.comment-list {
+    width: 80%;
+    min-height: 50px;
+    padding: 10px;
+    list-style: none;
+}
+
+.comment-list .comment {
+    width: 100%;
+    min-height: 1em;
+    background-color: rgb(194, 171, 171);
+    margin: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.comment-submit-window {
+width: 95%;
+height: auto;
+text-align: start;
+
+}
+
+.angry {
+    color: red;
+    size: big;
+}
+
+.horny {
+    color:indigo;
+    font-style: italic;
+}
+
+.comment-box {
+    color:gray;
+}
+
+.submit-button {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+/* 
+Свойство для стиля кнопки
+animation: comment-blink-light 600ms ease-in;
+
+
+
+*/
